@@ -1,0 +1,72 @@
+.section-title{    
+    font-weight: 700;
+    font-size: 28px;
+
+}
+.stars{
+    color:rgb(255,199,45);
+    margin-bottom:15px;
+}
+
+.bookoftheday-body{
+    display:flex;
+    margin:20px 0px 20px 0px;
+}
+
+.bookoftheday-body img{
+    border-radius: 17px;
+    width:135px;
+    height: 210px;
+    margin-right:20px;
+
+}
+.authors{
+    font-size: 16px;
+    color:rgba(0,0,0,0.2); 
+    margin: 10px 0px 10px 0px;
+}
+.tags{
+    display:flex;
+}
+.tag{
+    margin: 0px 10px 30px 0px;
+    width:100px;
+    height:30px;
+    background-color: rgba(247,247,247);
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.tag p{
+    font-size: 18px;
+}
+.bookmark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(255,199,45);
+}
+.buttons{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+
+}
+.button{
+    background-color: black;
+    border-radius: 7px;
+    width:140px;
+    height:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Baloo Tamma 2', system-ui;
+    font-weight: 100;
+
+}

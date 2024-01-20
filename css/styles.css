@@ -1,6 +1,8 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600;800&display=swap');
-
+@import "section/bookoftheday.css";
+@import "section/topadventures.css";
+@import "section/popularauthors.css";
 body{
     position:relative;
 
@@ -23,7 +25,7 @@ body{
     top:75px;
     left:13px;
     right:13px;
-    font-size: 15px;
+    font-size: 16px;
     background-color: white;
     border-radius: 30px;
     padding:0px 20px 0px 40px;
@@ -36,12 +38,4 @@ body{
     font-family: 'Baloo Tamma 2', system-ui;
     padding:70px 10px 15px 13px;
 
-}
-.section-title{    
-    font-weight: 700;
-    font-size: 28px;
-
-}
-.stars{
-    color:rgb(255,199,45);
 }
